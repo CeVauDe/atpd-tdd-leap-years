@@ -1,2 +1,2 @@
-def is_leap_year() -> bool:
+def is_leap_year(year: int) -> bool:
     return False
