@@ -1,9 +1,5 @@
 def is_leap_year(year: int) -> bool:
-    if year == 2000:
-        return True
-    if year == 1600:
-        return True
-    if year == 2400:
+    if year % 400 == 0:
         return True
     if year % 100 == 0:
         return False
