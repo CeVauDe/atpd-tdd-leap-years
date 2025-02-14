@@ -15,6 +15,8 @@ class TestShouldLeapYear:
             (1992, True),
             (1888, True),
             (1900, False),
+            (1800, False),
+            (2300, False),
         ],
     )
     def test_leap_year(self, year: int, expectation: bool):
